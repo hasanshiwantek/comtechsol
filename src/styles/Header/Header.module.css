@@ -1,0 +1,12 @@
+.cartIcon {
+    margin-right: 1px;
+    width: 40px;
+    display: block;
+    background: #3479e0;
+    padding: 2px 5px 0px 9px;
+    font-size: 20px;
+    border-bottom: 3px solid;
+    border-color: #3479e0;
+    color: white;
+    cursor: pointer;
+}
