@@ -4,7 +4,7 @@ import ResultSuccess from '../components/Result/ResultSuccess';
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Comtechsol LLC - Newsltter Subcription"
+    absolute: "Comtechsol  - Newsltter Subcription"
   },
   description:
     "View and manage your items in the shopping cart at Comtechsol. Add, remove, or update quantities before checkout.",

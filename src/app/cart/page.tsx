@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Comtechsol LLC - Shopping Cart"
+    absolute: "Comtechsol  - Shopping Cart"
   },
   description:
     "View and manage your items in the shopping cart at Comtechsol. Add, remove, or update quantities before checkout.",

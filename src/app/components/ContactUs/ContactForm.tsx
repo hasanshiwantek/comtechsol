@@ -51,7 +51,7 @@ const ContactForm = () => {
       {/* Page Title */}
       <div className="mb-8">
         <h1 className="sm:text-[28px] h1-lg mb-4">Contact Form</h1>
-        <h2 className="sm:text-[28px] h1-lg ">Comtechsol, LLC</h2>
+        <h2 className="sm:text-[28px] h1-lg ">Comtechsol, </h2>
       </div>
 
       {/* Intro Text */}
@@ -70,7 +70,7 @@ const ContactForm = () => {
           SMS Disclaimer:
         </p>
         <p className="text-[10px] text-[#545454] font-normal leading-[1.8]">
-          By providing my phone number to Comtechsol LLC, I agree and acknowledge that Comtechsol may send text messages to my wireless phone number for any purpose. Message frequency will vary, and Message and data rates may apply. If you need further assistance, please reply "HELP". You can also opt out by replying "STOP." For more information on how your data will be handled, please visit our privacy policy.
+          By providing my phone number to Comtechsol , I agree and acknowledge that Comtechsol may send text messages to my wireless phone number for any purpose. Message frequency will vary, and Message and data rates may apply. If you need further assistance, please reply "HELP". You can also opt out by replying "STOP." For more information on how your data will be handled, please visit our privacy policy.
         </p>
       </div>
 

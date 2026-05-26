@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   title: {
     // default: "Comtechsol",
     // template: "%s | Comtechsol",
-    default: "Comtechsol LLC",
+    default: "Comtechsol ",
     template: "%s | Comtechsol ",
   },
   description:
