@@ -79,7 +79,7 @@ const ForgotPassword = () => {
                   Home
                 </Link>
                 <span className="text-gray-500">/</span>
-                <span className="text-[#b91c1c]">Forgot Password</span>
+                <span className="text-[#2163c7]">Forgot Password</span>
               </div>
             </nav>
 
@@ -142,7 +142,7 @@ const ForgotPassword = () => {
             <p className="mt-8 text-sm text-gray-600">
               <Link
                 href="/auth/login"
-                className="text-[#b91c1c] underline decoration-[#b91c1c] underline-offset-2 hover:opacity-90"
+                className="text-[#2163c7] underline decoration-[#2163c7] underline-offset-2 hover:opacity-90"
               >
                 Back to login
               </Link>
