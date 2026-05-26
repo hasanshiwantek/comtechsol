@@ -127,7 +127,7 @@ const SignupPage = () => {
             Home
           </Link>
           <span className="text-gray-400">/</span>
-          <span className="text-red-600">Create Account</span>
+          <span className="text-[#2163c7]">Create Account</span>
         </div>
       </div>
 

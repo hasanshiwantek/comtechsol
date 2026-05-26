@@ -134,7 +134,7 @@ const ForgotPassword = () => {
                   </button>
                 </div>
                 {errors.email && (
-                  <p className="text-sm text-red-600">{errors.email.message}</p>
+                  <p className="text-sm text-[#2163c7]">{errors.email.message}</p>
                 )}
               </div>
             </form>

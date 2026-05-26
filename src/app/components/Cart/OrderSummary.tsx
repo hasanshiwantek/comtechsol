@@ -391,7 +391,7 @@ const OrderSummary = () => {
               </span> */}
               <button
                 onClick={handleRemoveCoupon}
-                className=" text-[14px] underline text-red-600 hover:text-red-700"
+                className=" text-[14px] underline text-[#2163c7] hover:text-red-700"
               >
                 Remove
               </button>
