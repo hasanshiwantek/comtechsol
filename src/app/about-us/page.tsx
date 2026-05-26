@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     "Comtechsol story",
   ],
   alternates: {
-    canonical: "https://server-blink.vercel.app/about-us",
+    canonical: "https://comtechsol.vercel.app/about-us",
   },
   openGraph: {
     title: "About Us | Comtechsol",
     description:
       "Learn more about Comtechsol, our mission, values, and commitment to providing quality server parts and IT solutions.",
-    url: "https://server-blink.vercel.app/about-us",
+    url: "https://comtechsol.vercel.app/about-us",
     siteName: "Comtechsol",
     images: [
       {
@@ -64,47 +64,41 @@ export const metadata: Metadata = {
 const AOSWrapper = dynamic(() => import("../components/animation/AOSWrapper"));
 const page = () => {
   return (
-        <main className="flex flex-col gap-30" role="main">
-            <div className="w-full max-w-[1170px] mx-auto lg:px-6 xl:px-0">
-                <div className="py-2">
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+    <main className="flex flex-col gap-30" role="main">
+      <div className="w-full max-w-[1170px] mx-auto lg:px-6 xl:px-0">
+        <div className="py-2">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
 
 
-                        {/* Content */}
-                        <div className="lg:col-span-12">
-                            <h2 className=""><span
-                                className="text-[11px] !text-[#3479e0]"
-                                itemProp="name"
-                            >
-                                Home
-                            </span> {" "} <span className="mt-2 mx-3 text-gray-400 text-[11px]" aria-hidden="true">/</span> {" "} <span
-                                className="!text-[#3479e0] text-[11px]"
-                                itemProp="name"
-                            >
-                                    About Us
-                                </span></h2>
+            {/* Content */}
+            <div className="lg:col-span-12">
+              <h2 className=""><span
+                className="text-[11px] !text-[#3479e0]"
+                itemProp="name"
+              >
+                Home
+              </span> {" "} <span className="mt-2 mx-3 text-gray-400 text-[11px]" aria-hidden="true">/</span> {" "} <span
+                className="!text-[#3479e0] text-[11px]"
+                itemProp="name"
+              >
+                  About Us
+                </span></h2>
 
-                            {/* Page Title */}
-                            <h1 className="text-4xl mb-4 text-[#4A4A4A] mt-5">
-                                About Us
-                            </h1>
+              {/* Page Title */}
+              <h1 className="text-4xl mb-4 text-[#4A4A4A] mt-5">
+                About Us
+              </h1>
 
-                            {/* Remaining Paragraphs */}
-                            <p className="text-[16px] leading-[23px] mt-6">
-                                We are a leading online retailer of server parts, committed to providing 
-                                high-quality and reliable products to our customers. With a wide range 
-                                of parts to choose from, we make it easy for businesses of all sizes 
-                                to upgrade and maintain their servers. Our team of experts is dedicated
-                                 to delivering exceptional customer service and technical support,
-                                  ensuring that our customers get the best possible experience when 
-                                  shopping with us.
-                            </p>
+              {/* Remaining Paragraphs */}
+              <p className="text-[16px] leading-[23px] mt-6">
+                Comtechsol is a one-stop shop for enterprise-grade server parts and components, designed to meet the demands of modern businesses. From CPUs and RAM to hard drives, RAID controllers, and beyond, we offer a comprehensive selection of products to help you build, upgrade, and maintain your server infrastructure with confidence. Our experienced team is committed to making every purchase smooth and stress-free, with knowledgeable support available to help you find the right fit for your setup. At Comtechsol, reliable hardware meets reliable service.
+              </p>
 
-                        </div>
-                    </div>
-                </div>
             </div>
-        </main>
+          </div>
+        </div>
+      </div>
+    </main>
   );
 };
 

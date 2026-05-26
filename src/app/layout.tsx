@@ -60,7 +60,7 @@ const robotoCondensed = Roboto_Condensed({
 // });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://server-blink.vercel.app"),
+  metadataBase: new URL("https://comtechsol.vercel.app"),
   title: {
     // default: "Comtechsol",
     // template: "%s | Comtechsol",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://server-blink.vercel.app",
+    url: "https://comtechsol.vercel.app",
     siteName: "Comtechsol",
     title: "Comtechsol – Quality Servers & IT Solutions",
     description:

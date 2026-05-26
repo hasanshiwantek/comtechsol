@@ -9,19 +9,19 @@ import ShopNow from "./components/Home/ShopNow";
 import Testimonials from "./components/Home/Testimonials";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://server-blink.vercel.app"),
+  metadataBase: new URL("https://comtechsol.vercel.app"),
   title: "PC, Computer & Server Parts | IT Hardware Store | Comtechsol",
   // title: "Home | Comtechsol",
   description:
     "Welcome to Comtechsol – your one-stop shop for servers, networking equipment, and IT solutions. Get the best prices and fast delivery.",
   alternates: {
-    canonical: "https://server-blink.vercel.app",
+    canonical: "https://comtechsol.vercel.app",
   },
   openGraph: {
     title: "Comtechsol – Home",
     description:
       "Shop servers, networking gear, and IT solutions at Comtechsol. Affordable, reliable, and delivered fast.",
-    url: "https://server-blink.vercel.app",
+    url: "https://comtechsol.vercel.app",
     siteName: "Comtechsol",
     images: [
       {
@@ -84,7 +84,7 @@ const Page = async () => {
                 isSlider={true}
                 title={"New Products".toUpperCase()}
               />
-              <Testimonials />
+              {/* <Testimonials /> */}
               <Brands />
               <ShopNow />
             </div>

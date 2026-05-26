@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Browse all brands available at Comtechsol — servers, networking, and IT hardware.",
   alternates: {
-    canonical: "https://server-blink.vercel.app/brands",
+    canonical: "https://comtechsol.vercel.app/brands",
   },
 };
 

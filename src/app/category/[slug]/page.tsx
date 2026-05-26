@@ -34,16 +34,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `https://server-blink.vercel.app/category/${slug}`,
+      canonical: `https://comtechsol.vercel.app/category/${slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://server-blink.vercel.app/category/${slug}`,
+      url: `https://comtechsol.vercel.app/category/${slug}`,
       siteName: "Comtechsol",
       images: [
         {
-          url: "https://server-blink.vercel.app/images/products-og.jpg", // Replace with actual OG image
+          url: "https://comtechsol.vercel.app/images/products-og.jpg", // Replace with actual OG image
           width: 1200,
           height: 630,
           alt: `${formattedCategory} Products`,

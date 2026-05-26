@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "Comtechsol contact",
   ],
   alternates: {
-    canonical: "https://server-blink.vercel.app/contact-us",
+    canonical: "https://comtechsol.vercel.app/contact-us",
   },
   openGraph: {
     title: "Contact Us | Comtechsol",
     description:
       "Get in touch with Comtechsol for product inquiries, customer support, and sales questions.",
-    url: "https://server-blink.vercel.app/contact-us",
+    url: "https://comtechsol.vercel.app/contact-us",
     siteName: "Comtechsol",
     images: [
       {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div className="">
+    <div>
       <ContactUs />
     </div>
   );

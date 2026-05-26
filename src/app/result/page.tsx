@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     "Comtechsol cart",
   ],
   alternates: {
-    canonical: "https://server-blink.vercel.app/cart",
+    canonical: "https://comtechsol.vercel.app/cart",
   },
   openGraph: {
     title: "Shopping Cart",
     description:
       "View and manage your items in the shopping cart at Comtechsol. Add, remove, or update quantities before checkout.",
-    url: "https://server-blink.vercel.app/cart",
+    url: "https://comtechsol.vercel.app/cart",
     siteName: "Comtechsol",
     images: [
       {
