@@ -290,9 +290,9 @@ const FooterBottom = () => {
         2xl:max-w-[85%]  mx-auto px-4 xl:px-4 2xl:px-28">
           <p className="text-white text-left text-base">
             © {new Date().getFullYear()} Comtechsol  |
-            <Link href="/sitemap" className="hover:text-gray-300">
+            {/* <Link href="/sitemap" className="hover:text-gray-300">
               Sitemap
-            </Link>
+            </Link> */}
           </p>
         </div>
       </div>
